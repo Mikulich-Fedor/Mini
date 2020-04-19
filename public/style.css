@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 900px;
+  font-family: "Playfair Display", serif;
+  background: url(./img/680843_original.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: 60% 25%;
+}
+.container h1 {
+  text-align: center;
+  text-shadow: antiquewhite 1px 1px;
+  font-size: 6.5em;
+  line-height: 2em;
+  font-family: "Great Vibes", cursive;
+}
+#wrapper-start {
+  display: flex;
+  justify-content: center;
+}
+#wrapper-start button {
+  padding: 5px 15px;
+  border: none;
+}
+#wrapper-start button:hover {
+  background-color: coral;
+  padding: 5px 17px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#wrapper {
+  display: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 100px auto;
+}
+.form input {
+  padding: 2px 5px;
+}
+.form label {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: antiquewhite 1px 1px;
+  line-height: 1em;
+  color: rgb(0, 0, 0);
+}
+.form img {
+  height: 1%;
+  width: 1%;
+}
+.enter {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.form_box-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.form_box-btn input {
+  width: 45%;
+}
+
+#office {
+  display: none;
+  flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgba(221, 221, 221, 0.8);
+}
+#currency {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #ddd;
+}
+#currency div {
+  display: flex;
+
+  width: 30%;
+  justify-content: space-around;
+}
+#boxBitcoin {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  box-shadow: 0 0 10px #ddd;
+  padding: 10px;
+}
+#boxBitcoin a {
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 10px #ddd;
+  padding: 5px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini bank</h1>
+      <div id="wrapper-start">
+        <button id="btnStart">Войти</button>
+      </div>
+
+      <div id="wrapper">
+        <form class="form" action="#">
+          <div class="form_box-name enter">
+            <label for="name"
+              >Имя
+              <img class="form_user-png" src="./img/user (1).png" alt="user"
+            /></label>
+            <input type="text" name="name" id="name" placeholder="Имя" />
+          </div>
+          <div class="form_box-email enter">
+            <label for="mail"
+              >@mail
+              <img class="form_user-png" src="./img/user (1).png" alt="mail"
+            /></label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="test@mail.com"
+            />
+          </div>
+          <div class="form_box-password enter">
+            <label for="password"
+              >Пароль
+              <img class="form_password-png" src="./img/door-key.png" alt="key"
+            /></label>
+            <input
+              type="password"
+              name="name"
+              id="password"
+              placeholder="Не мение 4 цифр"
+            />
+          </div>
+          <div class="form_box-btn">
+            <input id="btnSubmit" type="submit" value="Войти" />
+            <input id="btnRest" type="reset" value="Очистить" />
+          </div>
+        </form>
+      </div>
+
+      <div id="office">
+        <div id="officeNname"></div>
+        <div id="currency">
+          <div>
+            <div id="cursUsd"></div>
+            <div id="valueUsd"></div>
+          </div>
+          <div>
+            <div id="cursEuro"></div>
+            <div id="valueEuro"></div>
+          </div>
+          <div>
+            <div id="cursRu"></div>
+            <div id="valueRu"></div>
+          </div>
+        </div>
+        <div id="boxBitcoin">
+          <a id="payBitcoin" href="#"> купить Bitcoin</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="../src/utils/start.js"></script>
+    <script src="../src/utils/office.js"></script>
+    <script src="../src/utils/enter.js"></script>
+    <script src="../src/main.js"></script>
+  </body>
+</html>
